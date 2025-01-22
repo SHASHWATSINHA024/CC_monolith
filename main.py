@@ -12,7 +12,7 @@ import os
 
 app = flask.Flask(__name__)
 app.template_folder = 'templates'
-SRN = "PES1UG21CS522"
+SRN = "PES2UG22CS522"
 
 if(SRN[-3:]=="XXX"):
     print("Please update your SRN on line 15")
